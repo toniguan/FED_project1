@@ -1,0 +1,23 @@
+hero_img1   401*301
+hero_img2 1008  756
+hero_img3  2016  1512
+
+logo2.jpg  88   76
+
+pic11
+pic21
+pic31   470  353
+
+
+git  will show all commands.
+git clone https://github.com/toniguan/FED_project1.git
+
+git status
+
+git add  .   or -A
+
+git commit -m "messagae"
+
+git push
+
+git pull
