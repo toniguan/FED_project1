@@ -1,0 +1,112 @@
+
+*, *::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+body{
+  font-family: Roboto;
+  color: #2d3c49;
+  text-align: center;
+  margin: 20px 30px 0 30px;
+}
+
+.header-container{
+  margin-bottom: 30px;
+  border-bottom: 5px solid #7d97ad;
+  padding-bottom: 10px;
+}
+.featured-header{
+  text-align: left;
+  margin-top: 25px;
+}
+.project{
+  margin-top: 20px;
+}
+
+.text1{
+  font-size: 7vw;
+}
+.text2{
+  font-size: 5vw;
+}
+
+@media screen and (min-width:470px) {
+  .text1{
+    font-size: 6vw;
+  }
+  .text2{
+    font-size: 4vw;
+  }
+  .project-img{
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width:750px) {
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .name,
+  .title{
+    text-align: right;
+  }
+
+  .project-container{
+    display: flex;
+
+  }
+  .project{
+    margin-right: 20px;
+    width: 33.3%;
+
+  }
+  .project:last-child{
+    margin-right: 0px;
+  }
+  .text1{
+    font-size: 5vw;
+  }
+  .text2{
+    font-size: 3vw;
+  }
+
+}
+
+@media screen and (min-width:1000px) {
+  .text1{
+    font-size: 3vw;
+  }
+  .text2{
+    font-size: 1vw;
+  }
+
+}
+
+@media screen and (min-width: 1410px) {
+  /*
+  .header-container,
+  .hero_img,
+  .project-container{
+    display: flex;
+    width: 1410px;
+    margin-left: auto;
+    margin-right: auto;
+  }*/
+  body{
+    width: 1410px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+}
